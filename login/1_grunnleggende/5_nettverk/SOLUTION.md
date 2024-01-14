@@ -66,7 +66,7 @@ Received data:  ╰────────────────────�
 ```
 
 Her var utgangspunktet på 1.6_client.py:
-```
+```python
 #!/usr/bin/env python3
 
 import socket
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 ```
 
 Her var løsnings scriptet:
-```
+```python
 #!/usr/bin/env python3
 
 import socket
