@@ -27,7 +27,7 @@ Da jeg utforsket Path Traversal-oppgaven og la merke til at `les_bok`-programmet
 login@corax:~/1_grunnleggende/7_path_traversal$ ./les_bok ../FLAGG
 ```
 
-![[Pasted image 20240115195609.png]]
+![Image 1](Pasted%20image%2020240115195609.png)
 
 ```sh
 login@corax:~/1_grunnleggende/7_path_traversal$ scoreboard c1b59bdd13b7ad853bb623d672c51234
@@ -53,8 +53,8 @@ lik løste jeg oppgaven med path traversal og fant flagget:
     
 5. Resultatet var at programmet behandlet filen som `BONUS_FLAGG` uten `.txt`-utvidelsen, og jeg fikk tilgang til flagget.
 
-På denne måten kunne jeg omgå begrensningene og lese `BONUS_FLAGG`.
-![[Pasted image 20240115203346.png]]
+På denne måten kunne jeg omgå begrensningene og lese `BONUS_FLAGG`.<br>
+![Image 2](Pasted%20image%2020240115203346.png)
 ```sh
 login@corax:~/1_grunnleggende/7_path_traversal$ ./les_bok ../BONUS_FLAGG%00
 login@corax:~/1_grunnleggende/7_path_traversal$ scoreboard bc7f37bf13b7773cc361e002bc5ab7b0
